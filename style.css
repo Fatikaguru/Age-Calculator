@@ -1,0 +1,66 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: tahoma;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  padding: 5px;
+}
+
+.container {
+  border: 1px solid white;
+  box-shadow: 0 0 20px rgba(70, 226, 22, 0.349);
+  max-width: min(95%, 400px);
+  padding: 20px;
+  text-align: center;
+}
+
+.calendar_input {
+  background: white;
+  border: 1px solid rgb(36, 33, 33);
+  min-height: 6%;
+  line-height: 1.2;
+  padding: 1%;
+  width: 260px;
+  margin: 20px;
+}
+
+.calendar_input:hover {
+  background: white;
+  border: 1px solid rgba(43, 39, 39, 0.26);
+  min-height: 6%;
+  line-height: 1.2;
+  padding: 1%;
+  width: 260px;
+  margin: 20px;
+}
+
+.button_key {
+  color: white;
+  border: 1px solid purple;
+  min-height: 6%;
+  font-size: 15px;
+  padding: 1%;
+  width: 260px;
+  margin: 20px;
+  background-color: purple;
+}
+
+.button_key:hover {
+  color: white;
+  border: 1px solid purple;
+  min-height: 6%;
+  font-size: 15px;
+  padding: 1%;
+  width: 260px;
+  margin: 20px;
+  background-color: rgba(128, 0, 128, 0.37);
+}
